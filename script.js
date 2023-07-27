@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Jashn E Bahaara - Jodhaa Akbar", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Khamoshiyan - Arijit Singh", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Dil Diyan Gallan - Tiger Zinda Hai", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Samjhawan - Humpty Sharma Ki Dulhania", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: " Tu Har Lamha - Khamoshiyan", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: " Ae Dil Hai Mushkil - Arijit Singh", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "EK Mulaqat Ho - Sonali Cable", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Jab Tak (M.S. Dhoni)", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Kya Mujhe Pyar Hai", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Khairiyat Happy - Chhichhore", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Jashn E Bahaara - Jodhaa Akbar", filePath: "1.mp3", coverPath: "1.jpg"},
+    {songName: "Khamoshiyan - Arijit Singh", filePath: "2.mp3", coverPath: "2.jpg"},
+    {songName: "Dil Diyan Gallan - Tiger Zinda Hai", filePath: "3.mp3", coverPath: "3.jpg"},
+    {songName: "Samjhawan - Humpty Sharma Ki Dulhania", filePath: "4.mp3", coverPath: "4.jpg"},
+    {songName: " Tu Har Lamha - Khamoshiyan", filePath: "5.mp3", coverPath: "5.jpg"},
+    {songName: " Ae Dil Hai Mushkil - Arijit Singh", filePath: "6.mp3", coverPath: "6.jpg"},
+    {songName: "EK Mulaqat Ho - Sonali Cable", filePath: "7.mp3", coverPath: "7.jpg"},
+    {songName: "Jab Tak (M.S. Dhoni)", filePath: "8.mp3", coverPath: "8.jpg"},
+    {songName: "Kya Mujhe Pyar Hai", filePath: "9.mp3", coverPath: "9.jpg"},
+    {songName: "Khairiyat Happy - Chhichhore", filePath: "10.mp3", coverPath: "10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
